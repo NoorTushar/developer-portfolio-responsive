@@ -1,0 +1,127 @@
+@media (max-width: 575.98px) {
+  /* <!-- What I do Start --> */
+  .what-i-do {
+    padding: 0 0 60px;
+  }
+  #whatIDoDescription {
+    padding: 0 60px;
+  }
+
+  .skills-container {
+    /* justify-content: center;
+    flex-wrap: wrap; */
+    flex-direction: column;
+    gap: 20px;
+  }
+  .skill {
+    margin: 0 60px;
+    padding: 30 0px;
+    text-align: center;
+  }
+  .skill-description {
+    margin: 0 auto;
+    max-width: 316px;
+  }
+  /* <!-- What I do End --> */
+
+  /* <!-- My Resume Section Start --> */
+  .my-resume {
+    padding-bottom: 60px;
+  }
+  .my-resume .section-title {
+    margin-bottom: 30px;
+  }
+  .my-resume hr {
+    display: none;
+  }
+  .resume-column-container {
+    flex-direction: column;
+  }
+  .resume-column-title {
+    text-align: center;
+  }
+  .resume {
+    padding-left: 30px;
+  }
+
+  /* <!-- My Resume Section End --> */
+
+  /* <!-- Footer Section Start --> */
+  footer {
+    padding: 60px 0px;
+  }
+  .footer-column-container {
+    flex-direction: column;
+    padding: 0 40px;
+  }
+  /* <!-- Footer Section End --> */
+}
+
+@media (min-width: 575.99px) and (max-width: 991.98px) {
+  /* Enter CSS here */
+
+  /* <!-- What I do Start --> */
+  .what-i-do {
+    padding: 0 0 60px;
+  }
+  #whatIDoDescription {
+    padding: 0 60px;
+  }
+  .skills-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0;
+  }
+  .skill {
+    width: 45%;
+    text-align: center;
+    margin: 15px;
+
+    /* margin-left: 10px;
+    margin-right: 10px; */
+  }
+  .skill-description {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  /* <!-- What I do End --> */
+
+  /* <!-- My Resume Section Start --> */
+  .my-resume {
+    padding-bottom: 60px;
+  }
+  .my-resume .section-title {
+    margin-bottom: 30px;
+  }
+  .my-resume hr {
+    display: none;
+  }
+  .resume-column-container {
+    flex-direction: column;
+  }
+  .resume-column-title {
+    text-align: center;
+  }
+  .resume {
+    padding-left: 30px;
+  }
+
+  .resume-title {
+    text-align: center;
+  }
+
+  .education-institute {
+    text-align: center;
+  }
+  /* <!-- My Resume Section End --> */
+
+  /* <!-- Footer Section Start --> */
+  footer {
+    padding: 60px 0px;
+  }
+  .footer-column-container {
+    flex-direction: column;
+    padding: 0 40px;
+  }
+  /* <!-- Footer Section End --> */
+}
