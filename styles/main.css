@@ -1,0 +1,122 @@
+/* main section start */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* about section start*/
+.about {
+  padding: 150px;
+  margin: 150px 0;
+  background-color: #fff8f3;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.info-title {
+  color: var(--dark-3);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.info-description {
+  color: var(--dark-2);
+  font-size: 20px;
+  font-weight: 700;
+}
+/* about section end*/
+
+/* What I do section start */
+.what-i-do {
+  padding: 0 0 150px;
+}
+
+#whatIDoDescription {
+  padding: 0 150px;
+}
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.skill {
+  margin-top: 24px;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-title {
+  margin: 25px 0 20px;
+  color: var(--dark-1);
+  font-size: 20px;
+  font-weight: 700;
+}
+.skill-description {
+  max-width: 267px;
+  color: var(--dark-3);
+  font-size: 16px;
+  line-height: 28px; /* 175% */
+}
+/* What I do section end */
+
+/* My Resume Start */
+.my-resume {
+  padding-bottom: 150px;
+}
+.my-resume .section-title {
+  margin-bottom: 100px;
+}
+
+.resume-column-container {
+  display: flex;
+  gap: 24px;
+}
+.resume-column-container > * {
+  flex: 1;
+}
+
+.resume-column-title {
+  color: var(--dark-2);
+  font-size: 30px;
+  font-weight: 700;
+}
+.resume {
+  padding: 30px;
+  padding-left: 0px;
+}
+.resume-title {
+  color: var(--dark-2, #474747);
+  font-size: 25px;
+  font-weight: 700;
+}
+.education-institute {
+  color: var(--dark-3, #757575);
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 0 20px;
+}
+
+.my-resume .skill-description {
+  max-width: 480px;
+}
+
+.resume-button {
+  text-align: center;
+  margin-top: 25px;
+}
+/* My Resume End */
+
+/* main section end */
