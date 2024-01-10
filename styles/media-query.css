@@ -1,4 +1,20 @@
 @media (max-width: 575.98px) {
+  /* <!-- Header Section Start --> */
+
+  /* <!-- Header Section End --> */
+
+  /* <!-- About Section Start --> */
+  .about {
+    margin: 60px 0;
+    padding: 60px 30px;
+  }
+
+  .about-info-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  /* <!-- About Section End --> */
+
   /* <!-- What I do Start --> */
   .what-i-do {
     padding: 0 0 60px;
@@ -54,12 +70,32 @@
     flex-direction: column;
     padding: 0 40px;
   }
+  .footer-title {
+    text-align: center;
+  }
+  .footer-description {
+    text-align: center;
+  }
+  .social-icons {
+    text-align: center;
+  }
+
   /* <!-- Footer Section End --> */
 }
 
 @media (min-width: 575.99px) and (max-width: 991.98px) {
   /* Enter CSS here */
+  /* <!-- About Section Start --> */
+  .about {
+    margin: 60px 0;
+    padding: 60px 30px;
+  }
 
+  .about-info-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  /* <!-- About Section End --> */
   /* <!-- What I do Start --> */
   .what-i-do {
     padding: 0 0 60px;
@@ -122,6 +158,16 @@
   .footer-column-container {
     flex-direction: column;
     padding: 0 40px;
+  }
+  .footer-title {
+    text-align: center;
+  }
+  .footer-description {
+    padding: 0 100px;
+    text-align: center;
+  }
+  .social-icons {
+    text-align: center;
   }
   /* <!-- Footer Section End --> */
 }
